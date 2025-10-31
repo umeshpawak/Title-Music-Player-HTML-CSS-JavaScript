@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: inter;
+color: aliceblue;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 85%;
+    width: 100%;
+    background-color: rgb(18, 17, 17);  
+    display: flex; 
+    padding: 5vw 10vw;
+}
+#left{
+    height: 100%;
+    width: 45%;
+    background-color:rgb(52, 57, 55);
+    /* background-image: url(https://stat5.bollywoodhungama.in/wp-content/uploads/2023/09/Animal-3-322x523.jpg); */
+    background-size: cover;
+    background-position: top;
+}
+#right{ 
+    height: 100%;
+    width: 55%;
+    /* background-color: rgb(55, 72, 68); */
+    padding: 0 3vw;
+}
+#right h3{
+    font-size: 30px;
+}
+#all-songs{
+    /* background-color: blanchedalmond;  */
+    height: 85%;
+    margin-top: 30px;
+  /* background-color: rgb(118, 118, 104); */
+
+}
+.song-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #5a5a5a;
+    padding: 15px 15px;
+    /* background-color: rgb(118, 118, 104); */
+}
+.song-card:hover{
+background-color: #1e1e1e;
+} 
+.song-card:nth-last-child(1){
+    /* background-color: red; */
+    border-bottom: 1px solid #5a5a5a; 
+}
+.song-card .part1{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    
+}
+.song-card .part1 h2 {
+    font-size: 20px;   /* You can try 16px or 14px if you want smaller */
+    font-weight: 600;  /* Optional: makes it look cleaner */
+}
+
+.song-card img{
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+}
+#player{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#player h3{
+    background-color:  rgb(74, 67, 67);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#player h3 i{
+    font-size: 24px;
+}
+#player h3:active{
+    scale: 0.93;
+}
