@@ -41,7 +41,7 @@ audio.play()
 
 })
 
-// ye neeche buttons wala control k liye play/puse 
+// for controlling buttons  play/pause 
 var flag = 0
 
 play.addEventListener("click",function(){
